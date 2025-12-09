@@ -38,6 +38,8 @@ docker ps
 A única imagem que deveria estar aparecendo é a sarcopenia-app.
 
 5. Para acessar o sistema, inicie seu navegador de prefência e digite: localhost:8080 (ou qualquer outra porta que você colocou)
+Atenção: A página demora um pouco para carregar devido as bibliotecas. 
+--- 
 
 ## 3. Pós-instalação
 - Para finalizar a aplicação:
