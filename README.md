@@ -27,9 +27,9 @@ docker pull mfkaner/sarcopenia-pi-25-2
 docker run -d -p 8080:8000 --name sarcopenia-app mfkaner/sarcopenia-pi-25-2
 ```
 Explicações:
--d : Essa flag libera o seu terminal para utilizá-lo mesmo quando a imagem está rodando. 
--p : Essa flag mapeia a porta do seu computador para a porta nativa da imagem do docker. Essa configuração é personalizável: [Porta do seu PC]:[Porta do Docker (no caso, sempre será 8000]
---name: O nome também é personalizável, mas recomendamos fortemente que você mantenha o nome sarcopenia-app, pois continuaremos o tutorial com ele. 
+- -d : Essa flag libera o seu terminal para utilizá-lo mesmo quando a imagem está rodando. 
+- -p : Essa flag mapeia a porta do seu computador para a porta nativa da imagem do docker. Essa configuração é personalizável: [Porta do seu PC]:[Porta do Docker (no caso, sempre será 8000]
+- --name : O nome também é personalizável, mas recomendamos fortemente que você mantenha o nome sarcopenia-app, pois continuaremos o tutorial com ele. 
 
 4. Verifique que a imagem está rodando pelo comando:
 ```
